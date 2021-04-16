@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/xinwng.github.io/static/css/main.b38bed21.chunk.css",
-    "main.js": "/xinwng.github.io/static/js/main.38115db3.chunk.js",
-    "main.js.map": "/xinwng.github.io/static/js/main.38115db3.chunk.js.map",
-    "runtime-main.js": "/xinwng.github.io/static/js/runtime-main.ffc0fd4f.js",
-    "runtime-main.js.map": "/xinwng.github.io/static/js/runtime-main.ffc0fd4f.js.map",
-    "static/css/2.fe359a49.chunk.css": "/xinwng.github.io/static/css/2.fe359a49.chunk.css",
-    "static/js/2.fc35ef44.chunk.js": "/xinwng.github.io/static/js/2.fc35ef44.chunk.js",
-    "static/js/2.fc35ef44.chunk.js.map": "/xinwng.github.io/static/js/2.fc35ef44.chunk.js.map",
-    "static/js/3.890c53d7.chunk.js": "/xinwng.github.io/static/js/3.890c53d7.chunk.js",
-    "static/js/3.890c53d7.chunk.js.map": "/xinwng.github.io/static/js/3.890c53d7.chunk.js.map",
-    "index.html": "/xinwng.github.io/index.html",
-    "static/css/2.fe359a49.chunk.css.map": "/xinwng.github.io/static/css/2.fe359a49.chunk.css.map",
-    "static/css/main.b38bed21.chunk.css.map": "/xinwng.github.io/static/css/main.b38bed21.chunk.css.map",
-    "static/js/2.fc35ef44.chunk.js.LICENSE.txt": "/xinwng.github.io/static/js/2.fc35ef44.chunk.js.LICENSE.txt",
-    "static/media/apple_marketing_plan.1e6c77a5.png": "/xinwng.github.io/static/media/apple_marketing_plan.1e6c77a5.png",
-    "static/media/index.css": "/xinwng.github.io/static/media/victormono-bold.dcbacdcb.woff",
-    "static/media/nasa.7fdfde2c.png": "/xinwng.github.io/static/media/nasa.7fdfde2c.png",
-    "static/media/personal_portfolio.af9a6290.png": "/xinwng.github.io/static/media/personal_portfolio.af9a6290.png",
-    "static/media/splice.b9620302.png": "/xinwng.github.io/static/media/splice.b9620302.png"
+    "main.css": "/static/css/main.623209bd.chunk.css",
+    "main.js": "/static/js/main.6e8d6fd4.chunk.js",
+    "main.js.map": "/static/js/main.6e8d6fd4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50b82486.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50b82486.js.map",
+    "static/css/2.fe359a49.chunk.css": "/static/css/2.fe359a49.chunk.css",
+    "static/js/2.519945f3.chunk.js": "/static/js/2.519945f3.chunk.js",
+    "static/js/2.519945f3.chunk.js.map": "/static/js/2.519945f3.chunk.js.map",
+    "static/js/3.9d17473b.chunk.js": "/static/js/3.9d17473b.chunk.js",
+    "static/js/3.9d17473b.chunk.js.map": "/static/js/3.9d17473b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.fe359a49.chunk.css.map": "/static/css/2.fe359a49.chunk.css.map",
+    "static/css/main.623209bd.chunk.css.map": "/static/css/main.623209bd.chunk.css.map",
+    "static/js/2.519945f3.chunk.js.LICENSE.txt": "/static/js/2.519945f3.chunk.js.LICENSE.txt",
+    "static/media/apple_marketing_plan.1e6c77a5.png": "/static/media/apple_marketing_plan.1e6c77a5.png",
+    "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff",
+    "static/media/nasa.7fdfde2c.png": "/static/media/nasa.7fdfde2c.png",
+    "static/media/personal_portfolio.af9a6290.png": "/static/media/personal_portfolio.af9a6290.png",
+    "static/media/splice.b9620302.png": "/static/media/splice.b9620302.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ffc0fd4f.js",
+    "static/js/runtime-main.50b82486.js",
     "static/css/2.fe359a49.chunk.css",
-    "static/js/2.fc35ef44.chunk.js",
-    "static/css/main.b38bed21.chunk.css",
-    "static/js/main.38115db3.chunk.js"
+    "static/js/2.519945f3.chunk.js",
+    "static/css/main.623209bd.chunk.css",
+    "static/js/main.6e8d6fd4.chunk.js"
   ]
 }
