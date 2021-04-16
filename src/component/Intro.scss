@@ -1,0 +1,71 @@
+@import "../scss/colors";
+@import "../scss/breakpoints";
+
+.intro {
+  margin: 0 auto;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  @include mobile {
+    margin-top: 15vh;
+  }
+
+  .intro-title {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    font-family: "Victor-Mono-Bold", "Lotion", Consolas, "Lucida Console",
+      monospace;
+    font-size: 3.8em;
+    font-weight: 600;
+    color: $a_darkblue;
+
+    &:before {
+      content: "> ";
+    }
+
+    @include mobile {
+      font-size: 2em;
+      padding: 0 20px;
+    }
+
+    span {
+      background-color: rgba($a_darkblue, 0.7);
+      animation: caret 1s steps(1) infinite;
+      transition: all 80ms;
+    }
+
+    @keyframes caret {
+      40% {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .intro-description {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 40px;
+    text-align: left;
+    font-family: "Lotion", Open Sans;
+    font-weight: 550;
+    font-size: 1.4em;
+    line-height: 40px;
+    color: $a_darkblue;
+
+    @include mobile {
+      font-size: 1.2em;
+      line-height: 30px;
+      max-width: 100%;
+      margin: 50px 0;
+    }
+
+    a {
+      font-weight: bold;
+      color: $a_blue;
+      text-decoration: none;
+    }
+  }
+}

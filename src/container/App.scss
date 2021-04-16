@@ -1,0 +1,17 @@
+@import "../scss/colors";
+@import "../scss/breakpoints";
+
+.project-section {
+  font-family: "Victor-Mono-Bold", "Lotion";
+  // color: #d8dbe2;
+  color: $a_darkblue;
+  font-size: 2.7em;
+  font-weight: bolder;
+  padding-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  @include mobile {
+    margin-bottom: 40px;
+  }
+}

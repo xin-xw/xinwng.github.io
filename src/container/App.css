@@ -1,0 +1,16 @@
+.project-section {
+  font-family: "Victor-Mono-Bold", "Lotion";
+  color: #22223b;
+  font-size: 2.7em;
+  font-weight: bolder;
+  padding-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .project-section {
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

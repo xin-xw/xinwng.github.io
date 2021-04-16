@@ -1,0 +1,105 @@
+@import "../scss/colors";
+@import "../scss/breakpoints";
+
+.about-container {
+  margin-top: 20vh;
+  margin: 0 auto;
+
+  .grow:active {
+    -webkit-transform: scale(0);
+    transform: scale(1.05);
+  }
+  // .pointer:hover {
+  //   cursor: pointer;
+  // }
+
+  .terminal {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+    float: none;
+    .terminal-header {
+      height: 30px;
+      background-color: #363636;
+      border-radius: 10px 10px 0 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .header-button {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-left: 9px;
+      }
+      .red {
+        background-color: $terminal_redbg;
+        border: solid 1px #f65549;
+      }
+      .yellow {
+        background-color: $terminal_yellowbg;
+        border: solid 1px #ffb524;
+      }
+      .green {
+        background-color: $terminal_greenbg;
+        border: solid 1px #2dbb41;
+      }
+    }
+
+    .terminal-window {
+      font-size: larger;
+      padding-left: 0.5em;
+      background-color: #15161b;
+      border-radius: 0 0 10px 10px;
+      // box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
+      //   0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 15px 35px rgba(0, 0, 0, 0.2),
+        0 5px 15px rgba(0, 0, 0, 0.1);
+      // box-shadow: none !important;
+      font-family: "Lotion", Consolas, monospace;
+
+      a {
+        color: $pastelCoral;
+        text-decoration: none;
+      }
+
+      .statement:first-child {
+        padding-top: 35px;
+      }
+
+      .statement:last-child {
+        padding-bottom: 60px;
+      }
+
+      .statement {
+        margin-bottom: 25px;
+        margin-left: 35px;
+        margin-right: 35px;
+        line-height: 24px;
+
+        .input-statement {
+          color: #f7f7f7;
+
+          &:before {
+            content: "> ";
+          }
+        }
+
+        .return-statement {
+          color: $p_yellow;
+        }
+
+        span {
+          background: rgba(247, 247, 247, 0.65);
+          animation: caret 1s steps(1) infinite;
+        }
+
+        @keyframes caret {
+          50% {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

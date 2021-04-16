@@ -1,0 +1,70 @@
+.navbar-container {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 0.5em;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  .navbar-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+  }
+}
+
+.navbar-container .navbar {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 525px;
+  font-weight: bolder;
+  font-family: "Lotion", sans-serif;
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  .navbar-container .navbar {
+    font-size: 0.8em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.navbar-container .navbar a {
+  position: relative;
+  text-decoration: none;
+  color: #4a4e69;
+}
+
+.navbar-container .navbar a:after {
+  left: 0;
+  bottom: -20px;
+  width: 0;
+  height: 8px;
+  background-color: #9a8c98;
+  content: "";
+  -webkit-transition: width 0.1s;
+  transition: width 0.1s;
+}
+
+.navbar-container .navbar a:hover {
+  color: #9a8c98;
+}
+
+.navbar-container .navbar a:hover:after {
+  width: 100%;
+}
+/*# sourceMappingURL=Navbar.css.map */

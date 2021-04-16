@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,gBAAgB,CAAC;EACf,WAAW,EAAE,4BAA4B;EAEzC,KAAK,ECiBM,OAAO;EDhBlB,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CAKpB;;AEZC,MAAM,EAAE,SAAS,EAAE,KAAK;EFD1B,AAAA,gBAAgB,CAAC;IAWb,aAAa,EAAE,IAAI;GAEtB",
+    "sources": [
+        "App.scss",
+        "../scss/colors.scss",
+        "../scss/breakpoints.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

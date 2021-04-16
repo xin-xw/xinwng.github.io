@@ -1,0 +1,89 @@
+.intro {
+  margin: 0 auto;
+  margin-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    margin-top: 15vh;
+  }
+}
+
+.intro .intro-title {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+  font-family: "Victor-Mono-Bold", "Lotion", Consolas, "Lucida Console", monospace;
+  font-size: 3.8em;
+  font-weight: 600;
+  color: #22223b;
+}
+
+.intro .intro-title:before {
+  content: "> ";
+}
+
+@media (max-width: 767px) {
+  .intro .intro-title {
+    font-size: 2em;
+    padding: 0 20px;
+  }
+}
+
+.intro .intro-title span {
+  background-color: rgba(34, 34, 59, 0.7);
+  -webkit-animation: caret 1s steps(1) infinite;
+          animation: caret 1s steps(1) infinite;
+  -webkit-transition: all 80ms;
+  transition: all 80ms;
+}
+
+@-webkit-keyframes caret {
+  40% {
+    background-color: transparent;
+  }
+}
+
+@keyframes caret {
+  40% {
+    background-color: transparent;
+  }
+}
+
+.intro .intro-description {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  text-align: left;
+  font-family: "Lotion", Open Sans;
+  font-weight: 550;
+  font-size: 1.4em;
+  line-height: 40px;
+  color: #22223b;
+}
+
+@media (max-width: 767px) {
+  .intro .intro-description {
+    font-size: 1.2em;
+    line-height: 30px;
+    max-width: 100%;
+    margin: 50px 0;
+  }
+}
+
+.intro .intro-description a {
+  font-weight: bold;
+  color: #4a4e69;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Intro.css.map */
