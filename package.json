@@ -1,6 +1,6 @@
 {
-  "name": "docs",
-  "homepage": "http://xinwng.github.io/xinwng.github.io",
+  "name": "portfolio",
+  "homepage": "http://xinwng.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
