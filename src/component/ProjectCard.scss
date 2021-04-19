@@ -7,17 +7,15 @@
   font-family: "Lotion", Open Sans;
 
   .projectcarddivs {
-    min-height: 1000px;
-    // min-width: 550px;
-    max-height: 1000px;
-    max-width: 500px;
-    position: relative;
+    height: 900px;
+    width: 640px;
+    position: flex;
     display: inline-block;
     vertical-align: bottom;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     margin-bottom: 40px;
-    background-color: $b_grey;
+    background-color: #f7eeed;
     overflow: hidden;
 
     @include mobile {
@@ -25,8 +23,8 @@
     }
 
     .projectcarddivs-image {
-      height: 320px;
-      width: max-content;
+      height: 330px;
+      width: 75%;
       position: relative !important;
       // top: 0;
       // left: 0;
@@ -35,26 +33,12 @@
         display: none;
       }
     }
-
-    // .projectcarddivs-background {
-    //   position: absolute;
-    //   top: -1px;
-    //   right: -1px;
-    //   height: 110%;
-    //   width: 83%;
-    //   background: #ffffff;
-    //   background-size: cover;
-
-    //   @include tablet {
-    //     display: none;
-    //   }
-    // }
   }
 
   .projectcarddivs-content {
     padding: 10px;
     width: 100%;
-
+    z-index: 2;
     @include tablet {
       width: 100%;
       padding: 35px;
@@ -63,30 +47,35 @@
 
     h3 {
       font-weight: bolder;
-      font-size: 2.3em;
+      font-size: 2.2em;
       line-height: 45px;
       color: #000000;
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
 
     .project-links {
+      // position: flex;
       display: block;
       justify-content: flex-start;
       align-items: center;
       flex-wrap: wrap;
-
+      position: relative;
+      // position: absolute;
+      // margin: 0 auto;
+      // top: 50%;
+      // transform: translateX(83%);
+      // display: flex;
       .project-link {
-        // margin-right: 15px;
+        // margin-right: 20px;
         margin-top: 20px;
-        // white-space: nowrap;
+        white-space: nowrap;
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        // width: 55%;
         height: 55px;
         line-height: 15px;
-        padding: 0 20px;
+        padding: 0 10px;
         box-shadow: 0 10px 6px rgba(50, 50, 93, 0.11),
           0 1px 3px rgba(0, 0, 0, 0.08);
         border-radius: 5px;
@@ -96,8 +85,8 @@
         font-family: "Lotion", Open Sans;
         font-size: 1.5em;
         font-weight: 1000px;
-        // box-sizing: border-box;
-        background: #22223b;
+        box-sizing: border-box;
+        background: $a_blue;
         color: #fff;
 
         @include tablet {
@@ -106,13 +95,13 @@
         }
 
         &:hover {
-          background: #fff;
+          background: $a_brown;
           transform: translateY(-1px);
           box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1),
             0 3px 6px rgba(0, 0, 0, 0.08);
         }
         .button {
-          color: $pastelCoral;
+          color: $white;
           font-size: 1.5rem;
           vertical-align: middle;
           line-height: normal;
@@ -147,7 +136,7 @@
 
       .project-skill {
         border-radius: 4px;
-        border: double 2px $purple;
+        border: double 2px $a_blue;
         padding: 7px;
         margin-right: 10px;
         margin-bottom: 5px;

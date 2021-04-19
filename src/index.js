@@ -4,6 +4,10 @@ import "./scss/index.css";
 import App from "./container/App";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
+import "animate.css";
+import "@fortawesome/fontawesome-free";
+import "@svgr/webpack";
+import "file-loader";
 
 ReactDOM.render(
   <React.StrictMode>

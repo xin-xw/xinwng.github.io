@@ -3,7 +3,7 @@
 
 .navbar-container {
   // position: sticky;
-  background-color: $white;
+  background-color: $a_beige;
   overflow: hidden;
   // color: white;
   padding: 0.5em;
@@ -46,12 +46,12 @@
       color: $a_blue;
 
       &:after {
-        // display: block;
-        // position: absolute;
+        display: block;
+        position: absolute;
         left: 0;
-        bottom: -20px;
+        bottom: -10px;
         width: 0;
-        height: 8px;
+        height: 4px;
         background-color: $a_brown;
         content: "";
         transition: width 0.1s;

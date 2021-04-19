@@ -7,21 +7,21 @@ class ContactLinks extends Component {
       <div className="contact-links">
         <span>
           <a rel="noopener" target="_blank" href="mailto:xin@xinwang.me">
-            xin@xinwang.me
+            <u>xin@xinwang.me</u>
           </a>
         </span>
-        <span>
+        {/* <span>
           <a rel="noopener" target="_blank" href="https://github.com/xinwng">
-            github
+            <u>github</u>
           </a>
-        </span>
+        </span> */}
         <span>
           <a
             rel="noopener"
             target="_blank"
             href="https://www.linkedin.com/in/xinwng"
           >
-            linkedin
+            <u>linkedin</u>
           </a>
         </span>
       </div>

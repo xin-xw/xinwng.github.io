@@ -6,6 +6,8 @@ import Navbar from "../component/Navbar";
 import ContactLinks from "../component/Contacts";
 import projects from "../content/projects";
 import statements from "../content/about-me";
+
+import hand_point_down from "./images/hand_point_down.svg";
 import "./App.css";
 
 export default class Home extends React.PureComponent {
@@ -17,7 +19,7 @@ export default class Home extends React.PureComponent {
         <a id="about">
           <About statements={statements} />
         </a>
-        <h1 id="projects" className="project-section tc f1">
+        <h1 id="projects" className="project-section tc">
           personal projects
         </h1>
         <a className="projectcard_tac tc shadow-5">
@@ -25,9 +27,20 @@ export default class Home extends React.PureComponent {
             <ProjectCard projectcard={projects} />
           </div>
         </a>
-        <a id="contacts">
+        <h3 id="contacts" className="contacts-section tc">
+          connect with me
+          <div class="hand_point_down bounce">
+            <img
+              width="40"
+              height="40"
+              src={hand_point_down}
+              alt="hand point down"
+            />
+          </div>
+        </h3>
+        <p className="contacts-sub">
           <ContactLinks />
-        </a>
+        </p>
       </div>
     );
   }
