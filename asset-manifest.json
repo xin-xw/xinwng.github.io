@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.21bbc3d0.chunk.css",
+    "main.css": "/static/css/main.2739fea4.chunk.css",
     "main.js": "/static/js/main.c0c0e235.chunk.js",
     "main.js.map": "/static/js/main.c0c0e235.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c59c85a3.js",
@@ -13,7 +13,7 @@
     "images/6ae5b80a4735de620daaf86051caeec5-hand_point_down.svg": "/images/6ae5b80a4735de620daaf86051caeec5-hand_point_down.svg",
     "index.html": "/index.html",
     "static/css/2.ce59928f.chunk.css.map": "/static/css/2.ce59928f.chunk.css.map",
-    "static/css/main.21bbc3d0.chunk.css.map": "/static/css/main.21bbc3d0.chunk.css.map",
+    "static/css/main.2739fea4.chunk.css.map": "/static/css/main.2739fea4.chunk.css.map",
     "static/js/2.ef6ebb23.chunk.js.LICENSE.txt": "/static/js/2.ef6ebb23.chunk.js.LICENSE.txt",
     "static/media/apple_marketing_plan.1e6c77a5.png": "/static/media/apple_marketing_plan.1e6c77a5.png",
     "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.c59c85a3.js",
     "static/css/2.ce59928f.chunk.css",
     "static/js/2.ef6ebb23.chunk.js",
-    "static/css/main.21bbc3d0.chunk.css",
+    "static/css/main.2739fea4.chunk.css",
     "static/js/main.c0c0e235.chunk.js"
   ]
 }
