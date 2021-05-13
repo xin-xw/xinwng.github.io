@@ -24,7 +24,7 @@ export default [
   },
   {
     input: "Xin.canSpeak",
-    return: '["English - Native", "Mandarin - Bilingual Proficency"]',
+    return: '["English - Native", "Mandarin - Bilingual Fluency"]',
   },
   {
     input: "Xin.funFacts",

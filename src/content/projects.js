@@ -17,7 +17,7 @@ export default [
   {
     title: "NASA PDR",
     description:
-      "I participated in a 12-week long program: NASA Lucy Space Mission Concept Academy - designed to engage students in rigorous, project-based workforce development. I received mission development skill training from NASA scientists and engineers, and I utilized such trainings to develop a preliminary design review (PDR) strategizing and desigining a payload system that intends to survive the harsh Venusian climate. This was a collaborative group effort with 7 other students. I was the co-leader of the Science team and also partook in the Business team as well. Check out the source link below to see our final deliverable!.",
+      "I participated in a 12-week long program: NASA Lucy Space Mission Concept Academy - designed to engage students in rigorous, project-based workforce development. I received mission development skill training from NASA scientists and engineers, and I utilized such trainings to develop a preliminary design review (PDR) strategizing and desigining a payload system that intends to survive the harsh Venusian climate. This was a collaborative group effort with 7 other students. I was the co-leader of the Science team and also partook in the Business team as well. Check out the source link below to see our final deliverable!",
     skills: ["Strategy", "Design"],
     image: nasa,
     links: {

@@ -2,9 +2,9 @@
 @import "../../scss/breakpoints";
 
 .projectcard-container {
-  margin: 0 auto;
   font-family: "Circular", Open Sans, Segoe UI, sans-serif;
-  width: 65%;
+  max-width: 1070px;
+  margin: 0 auto;
   @include mobile {
     width: 100%;
   }
@@ -83,7 +83,7 @@
 
         .project-link {
           margin-right: 0px;
-          margin-top: 25px;
+          margin-top: 0px;
           white-space: nowrap;
           display: inline-block;
           line-height: 40px;
@@ -131,14 +131,15 @@
       }
 
       .project-skills {
-        display: center;
-        margin-bottom: 7px;
-        // flex-wrap: wrap;
+        display: flex;
+        // margin-bottom: 7px;
+        flex-wrap: wrap;
+        justify-content: center;
 
         .project-skill {
-          border-radius: 4px;
+          border-radius: 2px;
           border: solid 2px $a_blue;
-          padding: 8px;
+          padding: 6px;
           margin-left: 5px;
           margin-right: 5px;
           margin-bottom: 25px;

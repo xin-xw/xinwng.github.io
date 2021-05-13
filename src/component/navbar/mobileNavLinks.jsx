@@ -52,16 +52,16 @@ export function MobileNavLinks(props) {
          {isOpen && (
       <LinksWrapper>
         <LinkItem>
-          <Scrollchor to="#about" style={{ color: '#000' }}>about me</Scrollchor>
+        <a href="mailto:xin@xinwang.me" target="_blank" style={{ color: '#000' }}>xin@xinwang.me</a>
         </LinkItem>
         <LinkItem>
-          <Scrollchor to="#projects" style={{ color: '#000' }}>personal projects</Scrollchor>
+          <a rel="noopener" href="https://github.com/xinwng" target="_blank" style={{ color: '#000' }}>github</a>
+        </LinkItem>
+        <LinkItem>
+        <a rel="noopener" href="https://www.linkedin.com/in/xinwng" target="_blank" style={{ color: '#000' }}>linkedin</a>
         </LinkItem>
         <LinkItem>
          <a rel="noopener" href="https://docs.google.com/document/d/1HOYeD80rtpC4gh9snpv8D2WQO3I6cw504W4nwCqYXKI/" target="_blank" style={{ color: '#000' }}>resume</a>
-        </LinkItem>
-        <LinkItem>
-          <Scrollchor to="#contacts" style={{ color: '#000' }}>let's connect</Scrollchor>
         </LinkItem>
       </LinksWrapper>
       )}

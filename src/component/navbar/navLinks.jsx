@@ -53,6 +53,9 @@ export function NavLinks(props) {
           <Scrollchor to="#projects" style={{ color: '#000' }}>featured works</Scrollchor>
         </LinkItem>
         <LinkItem>
+          <a rel="noopener" href="https://github.com/xinwng" target="_blank" style={{ color: '#000' }}>github</a>
+        </LinkItem>
+        <LinkItem>
          <a rel="noopener" href="https://docs.google.com/document/d/1HOYeD80rtpC4gh9snpv8D2WQO3I6cw504W4nwCqYXKI/" target="_blank" style={{ color: '#000' }}>resume</a>
         </LinkItem>
         <LinkItem>

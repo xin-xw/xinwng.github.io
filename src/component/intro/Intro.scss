@@ -2,12 +2,14 @@
 @import "../../scss/breakpoints";
 
 .intro {
-  padding: 0 300px;
-  margin: 0px;
+  max-width: 1100px;
+  margin: 0 auto;
   margin-top: 18vh;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+
   @include tablet {
     padding: 0px !important;
     margin: 0 !important;
@@ -21,8 +23,8 @@
 
   .intro-title {
     max-width: 1000px;
-    margin: 0 35px;
-    padding: 0 1px;
+    // margin: 0 35px;
+    padding: 0 5px;
     font-family: "Victor-Mono-Bold", "Lotion", Consolas, "Lucida Console",
       monospace;
     font-size: 3.1em;
@@ -52,9 +54,9 @@
   }
 
   .intro-description {
-    max-width: 1250px;
-    // margin: 0 auto;
-    padding: 50px 40px;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 50px 30px;
     text-align: left;
     font-family: "Circular", Open Sans;
     font-weight: 500;

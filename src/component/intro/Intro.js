@@ -12,9 +12,9 @@ class Intro extends Component {
       <div className="intro">
         <Typewriter className="intro-title b" text="hey, i'm Xin!" />
         <div className="intro-description tc">
-          ⭐ i am currently a 3<sup>rd</sup> year computer science w/ business
+          🌟 i am currently a 3<sup>rd</sup> year computer science w/ business
           applications student interested in software enginnering and product
-          management. <br></br> ⭐ currently: interning @ vistendo & with plans
+          management. <br></br> 🌟 currently: interning @ vistendo & with plans
           to take summer courses
         </div>
       </div>
