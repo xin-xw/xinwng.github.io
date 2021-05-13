@@ -1,7 +1,11 @@
 @import "colors";
 @import "breakpoints";
-@import "../component/About";
+@import "../component/about/About";
 
+@font-face {
+  font-family: "Circular";
+  src: url("./font/circular-std.woff") format("woff");
+}
 @font-face {
   font-family: "Victor-Mono-Bold";
   src: url("./font/victormono-bold.woff") format("woff");
@@ -18,7 +22,8 @@
 }
 
 body {
-  background-color: $a_beige;
+  // background-color: $a_beige;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-feature-settings: "pnum";

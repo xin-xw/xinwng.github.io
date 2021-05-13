@@ -1,0 +1,159 @@
+.projectcard-container {
+  margin: 0 auto;
+  font-family: "Circular", Open Sans, Segoe UI, sans-serif;
+  width: 65%;
+}
+
+.projectcard-container .projectcarddivs {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 60px;
+  background-color: white;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05), 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05), 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .projectcard-container .projectcarddivs {
+    margin-bottom: 40px;
+  }
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-image {
+  height: 320px;
+  width: 450px;
+  position: relative !important;
+  top: 0;
+  left: 0;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1023px) {
+  .projectcard-container .projectcarddivs .projectcarddivs-image {
+    display: none;
+  }
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-background {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  height: 110%;
+  width: 83%;
+  background-size: cover;
+}
+
+@media (max-width: 1023px) {
+  .projectcard-container .projectcarddivs .projectcarddivs-background {
+    display: none;
+  }
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content {
+  padding: 30px;
+  width: 70%;
+  z-index: 2;
+}
+
+@media (max-width: 1023px) {
+  .projectcard-container .projectcarddivs .projectcarddivs-content {
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content h3 {
+  font-weight: 1000;
+  font-size: 2em;
+  line-height: 40px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-links {
+  display: center;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-links .project-link {
+  margin-right: 0px;
+  margin-top: 25px;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 14px;
+  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  font-family: "Circular", Open Sans, Segoe UI, sans-serif;
+  font-size: 0.9em;
+  font-weight: 600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #4a4e69;
+  color: #fff;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-links .project-link:hover {
+  background: #9a8c98;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-links .project-link.secondary {
+  background: #fff;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-links .project-link.secondary:hover {
+  background: #fff;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content p {
+  text-align: justify;
+  margin-bottom: 30px;
+  line-height: 27px;
+  color: black;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content a {
+  font-weight: bold;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-skills {
+  display: center;
+  margin-bottom: 7px;
+}
+
+.projectcard-container .projectcarddivs .projectcarddivs-content .project-skills .project-skill {
+  border-radius: 4px;
+  border: solid 2px #4a4e69;
+  padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  font-family: "Circular", Open Sans, Segoe UI, sans-serif;
+  font-size: 0.85em;
+  color: #000000;
+}
+/*# sourceMappingURL=ProjectCard.css.map */

@@ -1,26 +1,26 @@
-@import "../scss/colors";
-@import "../scss/breakpoints";
+@import "../../scss/colors";
+@import "../../scss/breakpoints";
 
 .intro {
-  margin: 0 auto;
-  margin-top: 20vh;
+  margin: 0 300px;
+  margin-top: 18vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 
   @include mobile {
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
 
   .intro-title {
     max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 40px;
+    margin: 0 35px;
+    padding: 0 1px;
     font-family: "Victor-Mono-Bold", "Lotion", Consolas, "Lucida Console",
       monospace;
-    font-size: 3.8em;
-    font-weight: 600;
-    color: $a_darkblue;
+    font-size: 3.1em;
+    font-weight: 700;
+    color: black;
 
     &:before {
       content: "> ";
@@ -45,14 +45,14 @@
   }
 
   .intro-description {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1250px;
+    // margin: 0 auto;
     padding: 50px 40px;
     text-align: left;
-    font-family: "Lotion", Open Sans;
-    font-weight: 550;
-    font-size: 1.4em;
-    line-height: 40px;
+    font-family: "Circular", Open Sans;
+    font-weight: 500;
+    font-size: 1.22em;
+    line-height: 35px;
     color: $a_darkblue;
 
     @include mobile {

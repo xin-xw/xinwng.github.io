@@ -1,6 +1,6 @@
 .intro {
-  margin: 0 auto;
-  margin-top: 20vh;
+  margin: 0 300px;
+  margin-top: 18vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,18 +15,18 @@
 
 @media (max-width: 767px) {
   .intro {
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
 }
 
 .intro .intro-title {
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 40px;
+  margin: 0 35px;
+  padding: 0 1px;
   font-family: "Victor-Mono-Bold", "Lotion", Consolas, "Lucida Console", monospace;
-  font-size: 3.8em;
-  font-weight: 600;
-  color: #22223b;
+  font-size: 3.1em;
+  font-weight: 700;
+  color: black;
 }
 
 .intro .intro-title:before {
@@ -61,14 +61,13 @@
 }
 
 .intro .intro-description {
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 1250px;
   padding: 50px 40px;
   text-align: left;
-  font-family: "Lotion", Open Sans;
-  font-weight: 550;
-  font-size: 1.4em;
-  line-height: 40px;
+  font-family: "Circular", Open Sans;
+  font-weight: 500;
+  font-size: 1.22em;
+  line-height: 35px;
   color: #22223b;
 }
 

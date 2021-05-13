@@ -1,9 +1,10 @@
-@import "../scss/colors";
-@import "../scss/breakpoints";
+@import "../../scss/colors";
+@import "../../scss/breakpoints";
 
 .about-container {
-  margin-top: 20vh;
-  margin: 0 auto;
+  // margin-top: 60vh;
+  // margin: 0 auto;
+  margin-top: 0px;
 
   .grow:active {
     -webkit-transform: scale(0);
@@ -47,16 +48,13 @@
     }
 
     .terminal-window {
-      font-size: larger;
-      padding-left: 0.5em;
+      font-size: 1em;
+      padding-left: 0.3em;
       background-color: #15161b;
       border-radius: 0 0 10px 10px;
-      // box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
-      //   0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
       box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 15px 35px rgba(0, 0, 0, 0.2),
         0 5px 15px rgba(0, 0, 0, 0.1);
-      // box-shadow: none !important;
-      font-family: "Lotion", Consolas, monospace;
+      font-family: "Victor-Mono-Bold", Consolas, monospace;
 
       a {
         color: $pastelCoral;
@@ -68,7 +66,7 @@
       }
 
       .statement:last-child {
-        padding-bottom: 60px;
+        padding-bottom: 35px;
       }
 
       .statement {

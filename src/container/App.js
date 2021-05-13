@@ -1,9 +1,9 @@
 import React from "react";
-import About from "../component/About";
-import Intro from "../component/Intro";
-import ProjectCard from "../component/ProjectCard";
-import Navbar from "../component/Navbar";
-import ContactLinks from "../component/Contacts";
+import About from "../component/about/About";
+import Intro from "../component/intro/Intro";
+import ProjectCard from "../component/projectcard/ProjectCard";
+import { Navbar } from "../component/navbar";
+import ContactLinks from "../component/contacts/Contacts";
 import projects from "../content/projects";
 import statements from "../content/about-me";
 
@@ -15,12 +15,14 @@ export default class Home extends React.PureComponent {
     return (
       <div className="home">
         <Navbar />
-        <Intro />
+        <a id="intro">
+          <Intro />
+        </a>
         <a id="about">
           <About statements={statements} />
         </a>
         <h1 id="projects" className="project-section tc">
-          personal projects
+          featured works
         </h1>
         <a className="projectcard_tac tc shadow-5">
           <div>

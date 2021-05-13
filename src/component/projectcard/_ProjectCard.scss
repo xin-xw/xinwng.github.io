@@ -1,23 +1,30 @@
-@import "../scss/colors";
-@import "../scss/breakpoints";
+@import "../../scss/colors";
+@import "../../scss/breakpoints";
 
 .projectcard-container {
   margin: 0 auto;
-
-  font-family: "Lotion", Open Sans;
+  font-family: "Circular", "Lotion", Open Sans;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+  padding-left: 140px;
+  padding-right: 140px;
 
   .projectcarddivs {
-    height: 900px;
-    width: 640px;
-    position: flex;
-    display: inline-block;
-    vertical-align: bottom;
-    flex-direction: column;
-    justify-content: flex-end;
+    height: 950px;
+    width: 650px;
+    // position: flex;
+    // display: inline-block;
+    grid-column-start: auto;
+    // align-self: center;
+    place-self: start center;
+    // vertical-align: bottom;
+    // flex-direction: column;
+    // justify-content: flex-end;
     margin-bottom: 40px;
     background-color: #f7eeed;
-    overflow: hidden;
-
+    overflow: scroll;
     @include mobile {
       margin-bottom: 40px;
     }
@@ -123,8 +130,8 @@
       margin-bottom: 30px;
       line-height: 27px;
       color: #000000;
-      font-size: 1em;
-      font-family: "Monaco";
+      font-size: 1.1em;
+      font-family: "Circular", "Monaco";
     }
 
     a {

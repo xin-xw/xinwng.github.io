@@ -1,5 +1,5 @@
 .about-container {
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin: 0 auto;
 }
 
@@ -113,6 +113,11 @@
 }
 
 @font-face {
+  font-family: "Circular";
+  src: url("./font/circular-std.woff") format("woff");
+}
+
+@font-face {
   font-family: "Victor-Mono-Bold";
   src: url("./font/victormono-bold.woff") format("woff");
 }
@@ -128,7 +133,7 @@
 }
 
 body {
-  background-color: #f8edeb;
+  background-color: white;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -webkit-font-feature-settings: "pnum";
