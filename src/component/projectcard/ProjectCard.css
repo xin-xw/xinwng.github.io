@@ -4,6 +4,12 @@
   width: 65%;
 }
 
+@media (max-width: 767px) {
+  .projectcard-container {
+    width: 100%;
+  }
+}
+
 .projectcard-container .projectcarddivs {
   position: relative;
   display: -webkit-box;
@@ -26,6 +32,7 @@
 
 @media (max-width: 767px) {
   .projectcard-container .projectcarddivs {
+    margin-top: 40px;
     margin-bottom: 40px;
   }
 }

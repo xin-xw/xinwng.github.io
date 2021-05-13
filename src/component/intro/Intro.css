@@ -1,5 +1,6 @@
 .intro {
-  margin: 0 300px;
+  padding: 0 300px;
+  margin: 0px;
   margin-top: 18vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,9 +14,19 @@
           justify-content: flex-end;
 }
 
+@media (max-width: 1023px) {
+  .intro {
+    padding: 0px !important;
+    margin: 0 !important;
+    margin-top: 100px !important;
+  }
+}
+
 @media (max-width: 767px) {
   .intro {
-    margin-top: 10vh;
+    padding: 0px !important;
+    margin: 0 !important;
+    margin-top: 100px !important;
   }
 }
 
@@ -36,7 +47,7 @@
 @media (max-width: 767px) {
   .intro .intro-title {
     font-size: 2em;
-    padding: 0 20px;
+    padding: 0px;
   }
 }
 
@@ -75,8 +86,7 @@
   .intro .intro-description {
     font-size: 1.2em;
     line-height: 30px;
-    max-width: 100%;
-    margin: 50px 0;
+    padding: none;
   }
 }
 

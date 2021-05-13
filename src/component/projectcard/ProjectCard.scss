@@ -5,6 +5,9 @@
   margin: 0 auto;
   font-family: "Circular", Open Sans, Segoe UI, sans-serif;
   width: 65%;
+  @include mobile {
+    width: 100%;
+  }
   .projectcarddivs {
     position: relative;
     display: flex;
@@ -18,6 +21,7 @@
     overflow: hidden;
 
     @include mobile {
+      margin-top: 40px;
       margin-bottom: 40px;
     }
 
