@@ -7,7 +7,7 @@ const NavLinksContainer = styled.div`
   display: flex;
   align-items: center;
   style: sticky;
-  padding-right: 230px;
+  // padding-right: 230px;
 `;
 
 const LinksWrapper = styled.ul`

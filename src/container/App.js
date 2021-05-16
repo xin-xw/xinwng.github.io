@@ -14,8 +14,8 @@ export default class Home extends React.PureComponent {
   render() {
     return (
       <div className="home">
-        <Navbar />
         <a id="intro">
+          <Navbar />
           <Intro />
         </a>
         <a id="about">

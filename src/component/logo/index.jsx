@@ -5,14 +5,13 @@ import Scrollchor from "react-scrollchor";
 
 
 const LogoWrapper = styled.div`
-    display:flex;
+    display: flex;
     align-items: center;
 `;
 
 const LogoImg = styled.div`
-    width: 130px;
+    width: 125px;
     height: 45px;
-    margin-left: 250px;
     img
     {
         width: 100%;

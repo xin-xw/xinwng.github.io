@@ -21,6 +21,7 @@ const NavbarContainer = styled.div`
 `;
 
 const LeftSection = styled.div`
+    // margin-left: 250px;    
     display: flex;
 `;
 

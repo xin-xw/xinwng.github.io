@@ -4,13 +4,13 @@ import logo from "./image/logo.svg";
 import Scrollchor from "react-scrollchor";
 
 const LogoWrapper = styled.div`
-    display:flex;
+    display: flex;
     align-items: center;
 `;
 
 const LogoImg = styled.div`
-    width: 145px;
-    height: 47px;
+    width: 125px;
+    height: 45px;
     img
     {
         width: 100%;

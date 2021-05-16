@@ -36,8 +36,9 @@
     }
 
     @include mobile {
-      font-size: 2em;
-      padding: 0px;
+      margin: 0 auto;
+      font-size: 2.7em;
+      margin-bottom: 35px;
     }
 
     span {
@@ -56,18 +57,18 @@
   .intro-description {
     max-width: 1050px;
     margin: 0 auto;
-    padding: 50px 30px;
+    padding: 50px 5px;
     text-align: left;
     font-family: "Circular", Open Sans;
     font-weight: 500;
     font-size: 1.22em;
     line-height: 35px;
-    color: $a_darkblue;
+    color: black;
 
     @include mobile {
       font-size: 1.2em;
       line-height: 30px;
-      padding: none;
+      padding: 20px 50px;
       // max-width: 100%;
       // margin: 50px 0;
     }

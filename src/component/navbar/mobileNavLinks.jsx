@@ -1,37 +1,56 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Scrollchor from "react-scrollchor";
+// import Scrollchor from "react-scrollchor";
 import { MenuToggle } from "./menuToggle";
 
 const NavLinksContainer = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
+  
 `;
 
 const LinksWrapper = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   list-style: none;
-  background-color: #fff;
+  background: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // background-color: #fff;
   width: 100%;
   flex-direction: column;
   position: fixed;
-  top: 65px;
-  left: 0;
+  top: 50px;
+  left: 0px;
 `;
 
 const LinkItem = styled.li`
   width: 100%;
   padding: 0 1.1em;
-  color: #222;
+  color: #000;
   font-weight: 1000;
-  font-size: 16px;
-  font-family: Lotion;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: Circular, Lotion;
   display: flex;
-  margin-bottom: 10px;
+  position: center;
+  align-items: center;
+  color: #EFFFFA;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  
+  // border-bottom: 2px solid black;
+  transition: all 250ms ease-in-out;
+  // &:hover {
+  //   border-bottom: 2px solid black;
+  //   }
 `;
 
 const Marginer = styled.div`
