@@ -51,6 +51,11 @@
   border: solid 1px #2dbb41;
 }
 
+.about-container .terminal .terminal-header .header-name {
+  font-family: "Circular", Consolas, monospace;
+  color: white;
+}
+
 .about-container .terminal .terminal-window {
   font-size: 1em;
   padding-left: 0.3em;

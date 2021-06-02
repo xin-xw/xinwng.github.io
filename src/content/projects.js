@@ -28,7 +28,7 @@ export default [
   {
     title: "PERSONAL PORTFOLIO",
     description:
-      "This project is the one that you are looking at right now! During my off time, I try not to focus academic work (to give my brain a little break) and puruse my other hobbies. But, the quarantine offered me so much free time! I learned ReactJS, HTML, CSS, and Sass during Spring Break 2021 and created this personal website.",
+      "This project is the one that you are looking at right now! During my off time, I try not to focus academic work (to give my brain a little break) and pursue my other hobbies. But, the quarantine offered me so much free time! I learned ReactJS, HTML, CSS, and Sass during Spring Break 2021 and created this personal website.",
     skills: ["ReactJS", "HTML", "Javascript", "CSS", "Saas"],
     image: personal_porfolio,
     links: {

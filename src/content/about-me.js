@@ -1,39 +1,44 @@
 export default [
   {
-    input: "Xin.namePronounciation",
+    input: "name pronounciation:",
     return: '"Shin!"',
   },
   {
-    input: "Xin.location",
+    input: "location:",
     return: '"Riverside, CA"',
   },
   {
-    input: "Xin.education",
+    input: "education:",
     return:
       '["B.S. in Computer Science with Business Applications @ University of California, Riverside", "Expected Graduation: June 2022"]',
   },
   {
-    input: "Xin.contacts",
+    input: "tech stack:",
     return:
-      '["<a href="mailto:xin@xinwang.me" target="_blank">xin@xinwang.me</a>", "<a rel="noopener" href="https://github.com/xinwng" target="_blank">github</a>", "<a rel="noopener" href="https://www.linkedin.com/in/xinwng" target="_blank">linkedin</a>"]',
+      '["Python", "C++", "C", "C#", "HTML5", "CSS3", "Javascript", "React.js"]',
   },
   {
-    input: "Xin.resume",
+    input: "contacts:",
     return:
-      '"<a rel="noopener" href="https://docs.google.com/document/d/1HOYeD80rtpC4gh9snpv8D2WQO3I6cw504W4nwCqYXKI/" target="_blank">resume link</a>"',
+      '["<a href="mailto:xin@xinwang.me" target="_blank">xin@xinwang.me</a>", "<a rel="noopener" href="https://github.com/xinwng" target="_blank">Github</a>", "<a rel="noopener" href="https://www.linkedin.com/in/xinwng" target="_blank">LinkedIn</a>"]',
   },
   {
-    input: "Xin.canSpeak",
+    input: "resume:",
+    return:
+      '"<a rel="noopener" href="https://docs.google.com/document/d/1HOYeD80rtpC4gh9snpv8D2WQO3I6cw504W4nwCqYXKI/" target="_blank">Resume Link</a>"',
+  },
+  {
+    input: "languages:",
     return: '["English - Native", "Mandarin - Bilingual Fluency"]',
   },
   {
-    input: "Xin.funFacts",
+    input: "fun facts:",
     return:
-      '["initially a biology major", "born in Fujian, China but moved to Los Angeles at 5 years old", "super afraid of snakes"]',
+      '["Born in Fujian, China", "Super scared of snakes", "Originally a Biology major"]',
   },
   {
-    input: "Xin.hobbies",
+    input: "hobbies:",
     return:
-      '["discovering music", "city-exploring", "watching movies & shows"]',
+      '["Discovering music", "City-exploring", "Watching movies & shows"]',
   },
 ];

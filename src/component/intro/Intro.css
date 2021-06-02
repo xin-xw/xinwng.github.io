@@ -17,7 +17,7 @@
 
 @media (max-width: 1023px) {
   .intro {
-    padding: 0px !important;
+    padding: 0 50px;
     margin: 0 !important;
     margin-top: 100px !important;
   }
@@ -47,34 +47,14 @@
 @media (max-width: 767px) {
   .intro .intro-title {
     margin: 0 auto;
-    font-size: 2.7em;
+    font-size: 2.3em;
     margin-bottom: 35px;
-  }
-}
-
-.intro .intro-title span {
-  background-color: rgba(34, 34, 59, 0.7);
-  -webkit-animation: caret 1s steps(1) infinite;
-          animation: caret 1s steps(1) infinite;
-  -webkit-transition: all 80ms;
-  transition: all 80ms;
-}
-
-@-webkit-keyframes caret {
-  40% {
-    background-color: transparent;
-  }
-}
-
-@keyframes caret {
-  40% {
-    background-color: transparent;
   }
 }
 
 .intro .intro-description {
   max-width: 1050px;
-  margin: 0 auto;
+  margin: 1 auto;
   padding: 50px 5px;
   text-align: left;
   font-family: "Circular", Open Sans;
@@ -93,8 +73,12 @@
 }
 
 .intro .intro-description a {
-  font-weight: bold;
-  color: #4a4e69;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+}
+
+.intro .intro-description a:hover {
+  color: #ffffff;
+  background-color: #9a8c98;
 }
 /*# sourceMappingURL=Intro.css.map */
