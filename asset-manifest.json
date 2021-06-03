@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d0a1c2b.chunk.css",
+    "main.css": "/static/css/main.49c99abc.chunk.css",
     "main.js": "/static/js/main.70e63ec9.chunk.js",
     "main.js.map": "/static/js/main.70e63ec9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f0e1c223.js",
@@ -18,7 +18,7 @@
     "images/ed89c5e0972c5e478686979a0d40cddb-apple_marketing_plan.svg": "/images/ed89c5e0972c5e478686979a0d40cddb-apple_marketing_plan.svg",
     "index.html": "/index.html",
     "static/css/2.ce59928f.chunk.css.map": "/static/css/2.ce59928f.chunk.css.map",
-    "static/css/main.2d0a1c2b.chunk.css.map": "/static/css/main.2d0a1c2b.chunk.css.map",
+    "static/css/main.49c99abc.chunk.css.map": "/static/css/main.49c99abc.chunk.css.map",
     "static/js/2.bcffce70.chunk.js.LICENSE.txt": "/static/js/2.bcffce70.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff"
   },
@@ -26,7 +26,7 @@
     "static/js/runtime-main.f0e1c223.js",
     "static/css/2.ce59928f.chunk.css",
     "static/js/2.bcffce70.chunk.js",
-    "static/css/main.2d0a1c2b.chunk.css",
+    "static/css/main.49c99abc.chunk.css",
     "static/js/main.70e63ec9.chunk.js"
   ]
 }
