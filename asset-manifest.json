@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d177371e.chunk.css",
-    "main.js": "/static/js/main.b7536c9e.chunk.js",
-    "main.js.map": "/static/js/main.b7536c9e.chunk.js.map",
+    "main.css": "/static/css/main.2d0a1c2b.chunk.css",
+    "main.js": "/static/js/main.70e63ec9.chunk.js",
+    "main.js.map": "/static/js/main.70e63ec9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f0e1c223.js",
     "runtime-main.js.map": "/static/js/runtime-main.f0e1c223.js.map",
     "static/css/2.ce59928f.chunk.css": "/static/css/2.ce59928f.chunk.css",
@@ -10,23 +10,23 @@
     "static/js/2.bcffce70.chunk.js.map": "/static/js/2.bcffce70.chunk.js.map",
     "static/js/3.2d952e93.chunk.js": "/static/js/3.2d952e93.chunk.js",
     "static/js/3.2d952e93.chunk.js.map": "/static/js/3.2d952e93.chunk.js.map",
+    "images/39f28990e922b559106f57e4c2965180-splice.svg": "/images/39f28990e922b559106f57e4c2965180-splice.svg",
+    "images/4715ac4b40e0642cbd47c6259dec9057-nasa.svg": "/images/4715ac4b40e0642cbd47c6259dec9057-nasa.svg",
     "images/6ae5b80a4735de620daaf86051caeec5-hand_point_down.svg": "/images/6ae5b80a4735de620daaf86051caeec5-hand_point_down.svg",
     "images/b85292b5c9586d9954fca7e97930fc23-logo.svg": "/images/b85292b5c9586d9954fca7e97930fc23-logo.svg",
+    "images/d0c9360d7eba893a3ce51de3ab14a366-portfolio.svg": "/images/d0c9360d7eba893a3ce51de3ab14a366-portfolio.svg",
+    "images/ed89c5e0972c5e478686979a0d40cddb-apple_marketing_plan.svg": "/images/ed89c5e0972c5e478686979a0d40cddb-apple_marketing_plan.svg",
     "index.html": "/index.html",
     "static/css/2.ce59928f.chunk.css.map": "/static/css/2.ce59928f.chunk.css.map",
-    "static/css/main.d177371e.chunk.css.map": "/static/css/main.d177371e.chunk.css.map",
+    "static/css/main.2d0a1c2b.chunk.css.map": "/static/css/main.2d0a1c2b.chunk.css.map",
     "static/js/2.bcffce70.chunk.js.LICENSE.txt": "/static/js/2.bcffce70.chunk.js.LICENSE.txt",
-    "static/media/apple_marketing_plan.1e6c77a5.png": "/static/media/apple_marketing_plan.1e6c77a5.png",
-    "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff",
-    "static/media/nasa.03209497.png": "/static/media/nasa.03209497.png",
-    "static/media/personal_portfolio.af9a6290.png": "/static/media/personal_portfolio.af9a6290.png",
-    "static/media/splice.b9620302.png": "/static/media/splice.b9620302.png"
+    "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.f0e1c223.js",
     "static/css/2.ce59928f.chunk.css",
     "static/js/2.bcffce70.chunk.js",
-    "static/css/main.d177371e.chunk.css",
-    "static/js/main.b7536c9e.chunk.js"
+    "static/css/main.2d0a1c2b.chunk.css",
+    "static/js/main.70e63ec9.chunk.js"
   ]
 }
