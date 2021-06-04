@@ -1,7 +1,7 @@
-import splice from "./images/splice.png";
-import apple_marketing_plan from "./images/apple_marketing_plan.png";
-import personal_porfolio from "./images/personal_portfolio.png";
-import nasa from "./images/nasa.png";
+import splice from "./images/splice.svg";
+import apple_marketing_plan from "./images/apple_marketing_plan.svg";
+import personal_porfolio from "./images/portfolio.svg";
+import nasa from "./images/nasa.svg";
 
 export default [
   {
@@ -36,9 +36,9 @@ export default [
     },
   },
   {
-    title: "MARKETING PLAN FOR APPLE'S IPHONE (2021)",
+    title: "MARKETING PLAN FOR APPLE'S IPHONE",
     description:
-      "A 30+ page marketing plan designed to evaluate Apple's current marketing situation and construct strategies that propel future growth. It comprises of the company's profile, financial overview, current marketing situation, SWOT analysis, and much more. Take a look!",
+      "A 30+ page marketing plan designed to evaluate Apple's marketing situation (as of 2021) and construct strategies that propel future growth. It comprises of the company's profile, financial overview, current marketing situation, SWOT analysis, and much more. Take a look!",
     skills: ["Product", "Strategy"],
     image: apple_marketing_plan,
     links: {

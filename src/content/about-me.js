@@ -13,7 +13,7 @@ export default [
       '["B.S. in Computer Science with Business Applications @ University of California, Riverside", "Expected Graduation: June 2022"]',
   },
   {
-    input: "tech stack:",
+    input: "programming skills:",
     return:
       '["Python", "C++", "C", "C#", "HTML5", "CSS3", "Javascript", "React.js"]',
   },

@@ -9,7 +9,7 @@ class ProjectLinks extends React.PureComponent {
       <div className="project-links">
         <a
           href={view_source}
-          rel="noopener"
+          rel="noopener noreferrer"
           target="_blank"
           className="project-link"
         >
@@ -61,20 +61,22 @@ class ProjectCard extends React.PureComponent {
   render() {
     const { projectcard } = this.props;
     return (
-      <div className="projectcard-container ">
-        {projectcard &&
-          projectcard.map((_project) => {
-            return (
-              <ProjectCardDivs
-                title={_project.title}
-                description={_project.description}
-                skills={_project.skills}
-                links={_project.links}
-                image={_project.image}
-                key={_project.title}
-              />
-            );
-          })}
+      <div className="container">
+        <div className="projectcard-container ">
+          {projectcard &&
+            projectcard.map((_project) => {
+              return (
+                <ProjectCardDivs
+                  title={_project.title}
+                  description={_project.description}
+                  skills={_project.skills}
+                  links={_project.links}
+                  image={_project.image}
+                  key={_project.title}
+                />
+              );
+            })}
+        </div>
       </div>
     );
   }
