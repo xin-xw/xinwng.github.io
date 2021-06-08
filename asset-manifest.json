@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.49c99abc.chunk.css",
-    "main.js": "/static/js/main.70e63ec9.chunk.js",
-    "main.js.map": "/static/js/main.70e63ec9.chunk.js.map",
+    "main.css": "/static/css/main.a7581c36.chunk.css",
+    "main.js": "/static/js/main.25a93636.chunk.js",
+    "main.js.map": "/static/js/main.25a93636.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f0e1c223.js",
     "runtime-main.js.map": "/static/js/runtime-main.f0e1c223.js.map",
     "static/css/2.ce59928f.chunk.css": "/static/css/2.ce59928f.chunk.css",
@@ -10,23 +10,23 @@
     "static/js/2.bcffce70.chunk.js.map": "/static/js/2.bcffce70.chunk.js.map",
     "static/js/3.2d952e93.chunk.js": "/static/js/3.2d952e93.chunk.js",
     "static/js/3.2d952e93.chunk.js.map": "/static/js/3.2d952e93.chunk.js.map",
-    "images/39f28990e922b559106f57e4c2965180-splice.svg": "/images/39f28990e922b559106f57e4c2965180-splice.svg",
-    "images/4715ac4b40e0642cbd47c6259dec9057-nasa.svg": "/images/4715ac4b40e0642cbd47c6259dec9057-nasa.svg",
-    "images/6ae5b80a4735de620daaf86051caeec5-hand_point_down.svg": "/images/6ae5b80a4735de620daaf86051caeec5-hand_point_down.svg",
-    "images/b85292b5c9586d9954fca7e97930fc23-logo.svg": "/images/b85292b5c9586d9954fca7e97930fc23-logo.svg",
-    "images/d0c9360d7eba893a3ce51de3ab14a366-portfolio.svg": "/images/d0c9360d7eba893a3ce51de3ab14a366-portfolio.svg",
-    "images/ed89c5e0972c5e478686979a0d40cddb-apple_marketing_plan.svg": "/images/ed89c5e0972c5e478686979a0d40cddb-apple_marketing_plan.svg",
     "index.html": "/index.html",
     "static/css/2.ce59928f.chunk.css.map": "/static/css/2.ce59928f.chunk.css.map",
-    "static/css/main.49c99abc.chunk.css.map": "/static/css/main.49c99abc.chunk.css.map",
+    "static/css/main.a7581c36.chunk.css.map": "/static/css/main.a7581c36.chunk.css.map",
     "static/js/2.bcffce70.chunk.js.LICENSE.txt": "/static/js/2.bcffce70.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff"
+    "static/media/apple_marketing_plan.ed89c5e0.svg": "/static/media/apple_marketing_plan.ed89c5e0.svg",
+    "static/media/index.css": "/static/media/victormono-bold.dcbacdcb.woff",
+    "static/media/hand_point_down.6ae5b80a.svg": "/static/media/hand_point_down.6ae5b80a.svg",
+    "static/media/logo.b85292b5.svg": "/static/media/logo.b85292b5.svg",
+    "static/media/nasa.4715ac4b.svg": "/static/media/nasa.4715ac4b.svg",
+    "static/media/portfolio.d0c9360d.svg": "/static/media/portfolio.d0c9360d.svg",
+    "static/media/splice.39f28990.svg": "/static/media/splice.39f28990.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f0e1c223.js",
     "static/css/2.ce59928f.chunk.css",
     "static/js/2.bcffce70.chunk.js",
-    "static/css/main.49c99abc.chunk.css",
-    "static/js/main.70e63ec9.chunk.js"
+    "static/css/main.a7581c36.chunk.css",
+    "static/js/main.25a93636.chunk.js"
   ]
 }
