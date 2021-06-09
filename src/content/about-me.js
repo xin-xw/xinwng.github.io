@@ -25,7 +25,7 @@ export default [
   {
     input: "resume:",
     return:
-      '"<a rel="noopener" href="https://docs.google.com/document/d/1HOYeD80rtpC4gh9snpv8D2WQO3I6cw504W4nwCqYXKI/" target="_blank">Resume Link</a>"',
+      '"<a rel="noopener" href="https://docs.google.com/document/d/1Bn9X08IqlF0gKhTlndLoVqKNHnDfQH9ue9peZ7Qvalk/edit?usp=sharing" target="_blank">Resume Link</a>"',
   },
   {
     input: "languages:",

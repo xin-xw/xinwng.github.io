@@ -33,7 +33,7 @@ const LinkItem = styled.li`
 
   &:hover {
     border-top: 2px solid;
-    }
+  }
 `;
 
 const Link = styled.a`
@@ -47,19 +47,39 @@ export function NavLinks(props) {
     <NavLinksContainer>
       <LinksWrapper>
         <LinkItem>
-          <Scrollchor to="#about" style={{ color: '#000' }}>about me</Scrollchor>
+          <Scrollchor to="#about" style={{ color: "#000" }}>
+            about me
+          </Scrollchor>
         </LinkItem>
         <LinkItem>
-          <Scrollchor to="#projects" style={{ color: '#000' }}>featured works</Scrollchor>
+          <Scrollchor to="#projects" style={{ color: "#000" }}>
+            featured works
+          </Scrollchor>
         </LinkItem>
         <LinkItem>
-          <a rel="noopener" href="https://github.com/xinwng" target="_blank" style={{ color: '#000' }}>github</a>
+          <a
+            rel="noopener"
+            href="https://github.com/xinwng"
+            target="_blank"
+            style={{ color: "#000" }}
+          >
+            github
+          </a>
         </LinkItem>
         <LinkItem>
-         <a rel="noopener" href="https://docs.google.com/document/d/1HOYeD80rtpC4gh9snpv8D2WQO3I6cw504W4nwCqYXKI/" target="_blank" style={{ color: '#000' }}>resume</a>
+          <a
+            rel="noopener"
+            href="https://docs.google.com/document/d/1Bn9X08IqlF0gKhTlndLoVqKNHnDfQH9ue9peZ7Qvalk/edit?usp=sharing"
+            target="_blank"
+            style={{ color: "#000" }}
+          >
+            resume
+          </a>
         </LinkItem>
         <LinkItem>
-          <Scrollchor to="#contacts" style={{ color: '#000' }}>let's connect</Scrollchor>
+          <Scrollchor to="#contacts" style={{ color: "#000" }}>
+            let's connect
+          </Scrollchor>
         </LinkItem>
       </LinksWrapper>
     </NavLinksContainer>
