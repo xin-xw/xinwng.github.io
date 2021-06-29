@@ -6,7 +6,7 @@ import { Navbar } from "../component/navbar";
 import ContactLinks from "../component/contacts/Contacts";
 import projects from "../content/projects";
 import statements from "../content/about-me";
-
+import ProjectCard2 from "../component/projects/projects";
 import hand_point_down from "./images/hand_point_down.svg";
 import "./App.css";
 
@@ -25,9 +25,8 @@ export default class Home extends React.PureComponent {
           featured works
         </h1>
         <a className="projectcard_tac tc shadow-5">
-          <div>
-            <ProjectCard projectcard={projects} />
-          </div>
+          {/* <ProjectCard projectcard={projects} /> */}
+          <ProjectCard2></ProjectCard2>
         </a>
         <h3 id="contacts" className="contacts-section tc">
           connect with me

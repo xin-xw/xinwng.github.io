@@ -18,18 +18,17 @@ class Intro extends Component {
           <a href="https://www.ucr.edu/" target="_blank" rel="noreferrer">
             UCR
           </a>{" "}
-          <br></br>◆ current: swe intern @{" "}
-          <a href="https://vistendo.com/" target="_blank" rel="noreferrer">
-            Vistendo
-          </a>
-          {", "}
-          advanced tech interview prep @{" "}
+          <br></br>◆ current: advanced tech interview prep @{" "}
           <a
             href="https://info.codepath.org/technical-interview-prep"
             target="_blank"
             rel="noreferrer"
           >
             CodePath
+          </a>
+          <br></br>◆ prev: swe intern @{" "}
+          <a href="https://vistendo.com/" target="_blank" rel="noreferrer">
+            Vistendo
           </a>
           <br></br>◆{" "}
           <Scrollchor to="#projects">
