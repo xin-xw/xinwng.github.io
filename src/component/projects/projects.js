@@ -1,19 +1,15 @@
 import React from "react";
 import {
   makeStyles,
-  Box,
   Card,
   CardContent,
   CardMedia,
   Grid,
   Typography,
   Button,
-  ThemeProvider,
-  createMuiTheme,
-  CssBaseline,
-  styled,
   ButtonGroup,
   useMediaQuery,
+  Paper,
 } from "@material-ui/core";
 import projects from "../../content/projects";
 
@@ -41,8 +37,8 @@ const useStyles = makeStyles((theme) => ({
     // minWidth: 450,
     // minHeight: 650,
     [theme.breakpoints.up("sm")]: {
-      maxWidth: 450,
-      minHeight: 650,
+      maxWidth: 470,
+      minHeight: 710,
     },
     borderRadius: 7,
     boxShadow:
@@ -57,6 +53,14 @@ const useStyles = makeStyles((theme) => ({
     // minHeight: 250,
     paddingBottom: 15,
   },
+  pc_skills: {
+    maxWidth: 420,
+    padding: 10,
+    margin: "auto",
+    border: "1px solid black",
+
+    // marginTop: -10,
+  },
   typ_header: {
     fontFamily: "Victor-Mono-Bold",
     fontWeight: "bold",
@@ -68,6 +72,11 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "justify",
     paddingLeft: 10,
     paddingRight: 10,
+    marginBottom: -15,
+  },
+  typ_skills: {
+    fontFamily: "Victor-Mono-Bold",
+    fontSize: ".9em",
   },
   button: {
     // background: "linear-gradient(to right, #ff9966, #ff5e62)",
@@ -78,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
     // height: 50,
     // padding: "0 30px",
     marginTop: -15,
-    fontSize: "1em",
+    fontSize: ".93em",
     fontFamily: "Circular",
     // background: "#4a4e69",
     background: "transparent",
@@ -107,7 +116,7 @@ export default function ProjectCard2() {
               className={classes.pc_img}
               src={explorify}
               alt="explorify"
-              style={{ height: 210 }}
+              style={{ height: 210, marginBottom: -20 }}
             />
           </CardContent>
           <CardContent>
@@ -130,6 +139,13 @@ export default function ProjectCard2() {
             </Typography>
           </CardContent>
           <CardContent>
+            <Paper variant="outlined" className={classes.pc_skills}>
+              <Typography className={classes.typ_skills}>
+                Express.js, Node.js, React.js, AWS EC2, PM2, Nginx, CI/CD
+              </Typography>
+            </Paper>
+          </CardContent>
+          <CardContent>
             <ButtonGroup disableElevation variant="contained">
               <Button
                 className={classes.button}
@@ -138,7 +154,7 @@ export default function ProjectCard2() {
                 target="_blank"
                 href="https://www.explorify.codes"
               >
-                Demo
+                DEMO
               </Button>
               <Button
                 className={classes.button}
@@ -157,7 +173,12 @@ export default function ProjectCard2() {
         <Card className={classes.pc}>
           <CardContent>
             <Typography className={classes.typ_header}>SPLICE</Typography>
-            <img className={classes.pc_img} src={splice} alt="splice" />
+            <img
+              className={classes.pc_img}
+              src={splice}
+              alt="splice"
+              style={{ height: 220, marginBottom: -25 }}
+            />
           </CardContent>
           <CardContent>
             <Typography className={classes.typ_desc}>
@@ -170,6 +191,13 @@ export default function ProjectCard2() {
               it along to the next person, and the total for each user will
               output.
             </Typography>
+          </CardContent>
+          <CardContent>
+            <Paper variant="outlined" className={classes.pc_skills}>
+              <Typography className={classes.typ_skills}>
+                C++, CMake, Google Test Suite, CI/CD
+              </Typography>
+            </Paper>
           </CardContent>
           <CardContent>
             <ButtonGroup disableElevation variant="contained">
@@ -205,7 +233,16 @@ export default function ProjectCard2() {
               little break) and pursue my other hobbies. But, the quarantine
               offered me so much free time! I learned ReactJS, HTML, CSS, and
               Sass during Spring Break 2021 and created this personal website.
+              Ever since then, I really do enjoy the short-term gratification
+              React.js gives me with their instant compile and reload feature.
             </Typography>
+          </CardContent>
+          <CardContent>
+            <Paper variant="outlined" className={classes.pc_skills}>
+              <Typography className={classes.typ_skills}>
+                React.js, HTML, CSS, Saas, Javascript, Bootstrap
+              </Typography>
+            </Paper>
           </CardContent>
           <CardContent>
             <ButtonGroup disableElevation variant="contained">
@@ -233,11 +270,19 @@ export default function ProjectCard2() {
               I participated in a 12-week long program: NASA Lucy Space Mission
               Concept Academy - designed to engage students in rigorous,
               project-based workforce development. I received mission
-              development skill training from NASA scientists and engineers, and
-              with a collaborative group effort amongst 7 brilliant students, we
-              designed a preliminary design review (PDR) strategizing a payload
-              system that intends to survive in Venus!
+              development skill training from NASA scientists and engineers -
+              and with a collaborative group effort amongst 7 brilliant
+              students, we designed a preliminary design review (PDR)
+              strategizing a payload system that intends to survive in Venus! I
+              was also the Co-leader of the Science Team. 😎
             </Typography>
+          </CardContent>
+          <CardContent>
+            <Paper variant="outlined" className={classes.pc_skills}>
+              <Typography className={classes.typ_skills}>
+                Strategy, Design, Research, Leadership, Teamwork
+              </Typography>
+            </Paper>
           </CardContent>
           <CardContent>
             <ButtonGroup disableElevation variant="contained">
@@ -264,7 +309,7 @@ export default function ProjectCard2() {
               className={classes.pc_img}
               src={apple_marketing_plan}
               alt="apple_marketing_plan"
-              style={{ height: 250 }}
+              style={{ height: 210 }}
             />
           </CardContent>
           <CardContent>
@@ -273,8 +318,15 @@ export default function ProjectCard2() {
               situation in 2021 and construct strategies that propel future
               growth. It comprises of the company's profile, financial overview,
               current marketing situation, SWOT analysis, and much more. Take a
-              look! I tried very hard on this. 😁
+              look! I tried very hard on this.
             </Typography>
+          </CardContent>
+          <CardContent>
+            <Paper variant="outlined" className={classes.pc_skills}>
+              <Typography className={classes.typ_skills}>
+                Product, Strategy, Design, Research
+              </Typography>
+            </Paper>
           </CardContent>
           <CardContent>
             <ButtonGroup disableElevation variant="contained">
